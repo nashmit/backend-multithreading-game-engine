@@ -7,20 +7,6 @@
 
 #include "engine.h"
 
-class Test : public referenceCounting{
-public:
-    int a;
-};
-
-typedef SmartPtr<Test> TestPtr ;
-
-void ff( TestPtr a) {
-    
-}
-
-void ff( Test aa) {
-    
-}
 
 
 /**************************************************/
