@@ -166,6 +166,7 @@ int main(int argc, const char * argv[])
         (*it)->Stop();
     }
     
+    /*
     ZipInstance zip("sylphis3d-svn-rev11.zip");
     
     printf("%s",zip.GetName().c_str() );
@@ -178,7 +179,7 @@ int main(int argc, const char * argv[])
         delete ff;
         zip.CloseCurrentFile();
     }
-
+     */
     return 0;
 }
 
